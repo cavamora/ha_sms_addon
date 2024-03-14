@@ -1348,8 +1348,8 @@ def mqttStart():
     global client
     global clientOk
     # MQTT Start
-    client = mqtt.Client()
     log.info("Starting MQTT " + MQTT_HOST)
+    client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION1)
     log.debug("mqttStart MQTT_PASSWORD: " + str(MQTT_PASSWORD))
     client.username_pw_set(username=MQTT_USERNAME, password=MQTT_PASSWORD)
     client.on_connect = on_connect
