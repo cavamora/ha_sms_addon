@@ -1,5 +1,5 @@
 {
-  "name": "Dmslabs Home Assistant Add-ons",
-  "url": "https://github.com/dmslabsbr/smsUps",
-  "maintainer": "Daniel <suport@neoage.com.br>"
+  "name": "GCM Home Assistant Add-ons",
+  "url": "https://github.com/cavamora/ha_sms_addon",
+  "maintainer": "GCM <gustavocmorais@gmail.com>"
 }
