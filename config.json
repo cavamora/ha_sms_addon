@@ -4,7 +4,7 @@
   "slug": "hassio_sms_ups",
   "description": "Read data from SMS BRASIL UPS",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "url": "https://github.com/dmslabsbr/smsUps",
+  "url": "https://github.com/cavamora/ha_sms_addon",
   "startup": "application",
   "boot": "auto",
   "ports": {
